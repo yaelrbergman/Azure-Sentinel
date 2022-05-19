@@ -4,9 +4,6 @@ description: |
   'Identifies a match across various data feeds for domains, process, hashes and IP IOC related to Chia cryptocurrency farming/plotting activity.'
 severity: Low 
 requiredDataConnectors: 
-  - connectorId: WindowsSecurityEvents
-    dataTypes: 
-      - SecurityEvents 
   - connectorId: WindowsForwardedEvents
     dataTypes: 
       - WindowsEvent 
